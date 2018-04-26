@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efe6f36-edd1-4caf-93a0-37f65ac6ee49" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/JavaIntro/com/introduction/Main.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/introduction/NamedDiamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/introduction/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/introduction/Diamond.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/introduction/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="180">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NamedDiamond.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/introduction/NamedDiamond.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -45,6 +55,7 @@
         <option value="$PROJECT_DIR$/src/com/introduction/Main.java" />
         <option value="$PROJECT_DIR$/src/com/introduction/Triangle.java" />
         <option value="$PROJECT_DIR$/src/com/introduction/Diamond.java" />
+        <option value="$PROJECT_DIR$/src/com/introduction/NamedDiamond.java" />
       </list>
     </option>
   </component>
@@ -106,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Diamond">
+  <component name="RunManager" selected="Application.NamedDiamond">
     <configuration name="Diamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.introduction.Diamond" />
       <module name="JavaIntro" />
@@ -123,6 +134,16 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="NamedDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.introduction.NamedDiamond" />
+      <module name="JavaIntro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -142,9 +163,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Diamond" />
+      <item itemvalue="Application.NamedDiamond" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NamedDiamond" />
         <item itemvalue="Application.Diamond" />
         <item itemvalue="Application.Main" />
       </list>
@@ -215,8 +238,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/introduction/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/introduction/NamedDiamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
