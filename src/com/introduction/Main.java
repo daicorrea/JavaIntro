@@ -5,20 +5,19 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int numb = 3;
-        int whitespaces = numb-1;
-        char triangle_field[][] = new char[numb][numb+2];
-        for (int i = 0; i < numb; i++) {
-            for (int j = 0; j < numb + 2; j++) {
-                if((j > whitespaces) && (j < (numb + 2) - whitespaces)) {
-                    triangle_field[i][j] = ' ';
+        int lines_qty = 4;
+        int whitespaces = lines_qty - 1;
+        for (int i = 0; i < lines_qty; i++) {
+            for (int j = 0; j <= lines_qty + 2; j++) {
+                if (j > whitespaces && j <= ((lines_qty + 2) - whitespaces)) {
+                    System.out.print("*");
                 }
                 else {
-                    triangle_field[i][j] = '*';
+                    System.out.print(" ");
                 }
             }
+            System.out.println("\n");
             whitespaces--;
         }
-        System.out.println(Arrays.deepToString(triangle_field));
     }
 }
