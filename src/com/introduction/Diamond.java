@@ -1,6 +1,6 @@
 package com.introduction;
 
-public class Triangle {
+public class Diamond {
 
     public static void main(String[] args) {
         int lines_qty = 3;
@@ -10,7 +10,6 @@ public class Triangle {
 
     public static String drawDiamond(int lines_qty, int whitespaces_qty) {
         String diamondBottom = removeInitialLines(drawInvertedTriangle(lines_qty, whitespaces_qty), 2);
-
         return (drawTriangle(lines_qty, whitespaces_qty)  +
                 diamondBottom);
     }
