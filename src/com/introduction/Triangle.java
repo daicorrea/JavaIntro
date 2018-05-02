@@ -4,6 +4,10 @@ public class Triangle {
 
     public static void main(String[] args) {
         int lines_qty = 3;
+        showTriangle(lines_qty);
+    }
+
+    public static void showTriangle(int lines_qty) {
         int whitespaces_qty = getWhitespaceQuantityByLine(lines_qty);
         String triangle = drawTriangle(lines_qty, whitespaces_qty);
         System.out.println(triangle);
@@ -29,6 +33,5 @@ public class Triangle {
         char[] repeating = new char[times_to_repeat];
         return String.valueOf(repeating).replace("\0", str_to_repeat);
     }
-
 
 }
