@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class FizzBuzz {
     public static void main(String[] args) {
+        printFizzBuzz();
+    }
+
+    public static void printFizzBuzz() {
         ArrayList<String> fizzBuzz = getFizzBuzz();
         System.out.println(fizzBuzz);
     }
@@ -17,14 +21,15 @@ public class FizzBuzz {
     }
 
     public static String verifyNumbers(int number) {
+        if (number % 3 == 0 && number % 5 == 0) {
+            return "FizzBuzz";
+        }
         if (number % 3 == 0) {
             return "Fizz";
         }
         if (number % 5 == 0) {
             return "Buzz";
-        }
-
-        else {
+        } else {
             return String.valueOf(number);
         }
     }
